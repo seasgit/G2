@@ -1,0 +1,35 @@
+/* sélecteur naturel */
+h1 {
+    color: rgb(14, 192, 79);
+    font-size: 40px;
+}
+
+p {
+    font-size: 24px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+section {
+    width: 600px;
+    height: 400px;
+    border: red 5px solid;
+    /* espace à gauche dans la boite */
+    padding-left: 10px;
+    padding-right: 10px;
+    /* espace autour de la boite */
+    margin-top: 50px;
+    margin-left: 80px;
+    /* couleur de fond */
+    background-color: antiquewhite;
+}
+
+/* le paragraphe dans section */
+section p {
+    font-size: 18px;
+    font-family: sans-serif;
+    text-align: justify;
+}
+
+section h2 {
+    text-align: center;
+}

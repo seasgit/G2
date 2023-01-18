@@ -1,0 +1,22 @@
+/* 
+    section 600x400 jaune
+    figure 600x600  verte pale
+*/
+
+
+/* reset des marges pour tous les éléments html */
+* {
+    margin: 0;
+}
+
+section {
+    width: 600px;
+    height: 400px;
+    background-color: yellow;
+}
+
+figure {
+    width: 600px;
+    height: 600px;
+    background-color: palegreen;
+}

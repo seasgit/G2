@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+* {
+    margin: 0;
+}
+
+/* la 1ere section */
+section.s1 {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    width: 600px;
+    height: 400px;
+    border: 5px solid #777;
+    text-align: center;
+}
+
+/* on peut omettre section */
+.s1 h1 {
+    padding-top: 10px;
+    font-size: 40px;
+    font-family: 'Pacifico', cursive;
+    font-weight: normal;
+}
+
+.s1 img {
+    width: 80%;
+    height: 75%;
+    object-fit: cover;
+    object-position: left top;
+}
+
+
+.s2 {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    width: 600px;
+    height: 400px;
+    border: 5px solid #777;
+    text-align: center;
+    background: url(./images/pedro-monteiro-unsplash.jpg);
+    background-size: cover;
+}
+
+.s2 h1 {
+    padding-top: 10px;
+    font-size: 40px;
+    font-family: 'Pacifico', cursive;
+    font-weight: normal;
+    color: white;
+}
