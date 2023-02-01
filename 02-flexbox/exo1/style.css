@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+/* 
+    on demande au corps de page d'utiliser flexbox
+    pour centrer au milieu la section
+    100vh correspond à 100% de la surface visible du navigateur
+*/
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+section {
+    /*  voir alternative flexbox dans body pour centrer la section
+        margin: 50px auto 0 auto; 
+    */
+    width: 800px;
+    height: 400px;
+    background-color: rgb(174, 162, 162);
+    /* alignement flexbox */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/* 4 boites carrées de 140x140  de 4 couleurs differentes */
+
+section div {
+    width: 140px;
+    height: 140px;
+}
+
+.b1 { background-color: cyan;}
+.b2 { background-color: orange;}
+.b3 { background-color: palegreen;}
+.b4 { background-color: pink;}

@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700;800;900&display=swap');
+/* reset des marges et espaces internes des boites */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding: 50px;
+}
+
+.box {
+    text-align: center;
+    width: 300px;
+    height: 600px;
+    padding-top: 30px;
+    background: url(./images/healthy-lifestyle-8.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* les 3 span du h1 dans .box */
+
+
+.box h1 span {
+    display: block;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1;
+}
+
+
+.sp1 {
+    font-weight: 900;
+    font-size: 40px;
+    color: rgb(158, 98, 8);
+}
+
+.sp2 {
+    font-weight: 500;
+    color:rgb(110, 230, 110);
+}
+
+
+.sp3 {
+    font-weight: 800;
+    font-size: 26px;
+    color: rgb(158, 98, 8);
+    
+}
