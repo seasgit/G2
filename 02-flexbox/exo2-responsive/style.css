@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+
+/* 
+    MOBILE FIRST
+*/
+
+section {
+    padding-top: 10px;
+    margin-bottom: 20px;
+    /* ci-dessous largeur 
+            minimum 90% de la surface du viewport
+            maximum 600px 
+    */
+    width: min(90vw, 600px );
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+/* 4 boites  */
+
+.b1 { background: url(./images/1x/healthy-lifestyle-8.png);}
+.b2 { background: url(./images/1x/time-fitness-8.png);}
+.b3 { background: url(./images/1x/for-life-health-8.png);}
+.b4 { background: url(./images/1x/training-today-8.png);}
+
+
+.box {
+    text-align: center;
+    padding-top: 20px;
+    width: min(100%,300px);
+    aspect-ratio: 1/2;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* les 3 span du h1 dans .box */
+
+.box h1 span {
+    display: block;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1;
+}
+
+/* le 1er span de chaque .box */
+.box span:nth-of-type(1) {
+    font-weight: 900;
+    font-size: 40px;
+}
+
+.box span:nth-of-type(2) {
+    font-weight: 500;
+}
+
+.box span:nth-of-type(3){
+    font-weight: 800;
+    font-size: 26px;
+}
+
+.sp1 { color: rgb(158, 98, 8);}
+.sp2 { color: rgb(110, 230, 110); }
+.sp3 { color: rgb(158, 98, 8); }
+
+.sp4 { color: rgb(4,130, 109);}
+.sp5 { color: rgb(20,75,148); }
+.sp6 { color: rgb(4,130, 109); }
+
+.sp7 { color: rgb(20,75,148);}
+.sp8 { color: rgb(20,75,148); }
+.sp9 { color: rgb(20,75,148); }
+
+.sp10 { color: rgb(211, 156, 37);}
+.sp11 { color: rgb(255,207,33); }
+.sp12 { color: rgb(175, 91, 12); }
+
+
+
+@media (min-width:800px) {
+
+    section {
+        width: min(100%, 880px);
+    }
+
+    .box {
+       width: min(100%, 380px);
+    }
+}
+
+
+@media (min-width:1200px) {
+
+    section {
+        width: min(90%, 1400px);
+    }
+
+    .box {
+        width: 23%;
+    }
+}
