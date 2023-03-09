@@ -23,8 +23,13 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: "toto" ;
+    src: url(./fonts/greathy_regular-webfont.woff);
+}
+
 
 p {
-    font-family: 'greathyregular';
+    font-family: 'toto';
     font-size: 100px;
 }
