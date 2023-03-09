@@ -17,10 +17,14 @@ body {
 }
 
 .main-container {
+    /* parent de freepik qui est en absolute */
+    position: relative; 
     display: flex;
     width: 900px;
     height: 450px;
     background:white;
+    background-image: url(./data/SVG/dotted-line.svg);
+    background-position: -48px -48px;
 }
 
 /* tous les enfants de 1er niveau de .main-container
@@ -61,7 +65,8 @@ body {
 
 .texte{
     text-align: center;
-    padding: 0 25px 0 25px;
+    /* padding: 0 25px 0 25px; */
+    width: 78%;
     font-family: sans-serif;
     margin-bottom: 10px;
 }
@@ -86,4 +91,9 @@ body {
     font-family: 'Montserrat', sans-serif;
     text-decoration: none;
     font-weight: 500;
+}
+
+.freepik {
+    position: absolute;
+    bottom: -20px; right: 0;
 }
